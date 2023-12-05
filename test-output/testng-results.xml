@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-05T15:07:17 IST" name="Default suite" finished-at="2023-12-05T15:07:17 IST" duration-ms="68">
+    <groups>
+    </groups>
+    <test started-at="2023-12-05T15:07:17 IST" name="Default test" finished-at="2023-12-05T15:07:17 IST" duration-ms="68">
+      <class name="testcases.DependsOnMethod">
+        <test-method signature="Zlaunch()[pri:0, instance:testcases.DependsOnMethod@4a7f959b]" started-at="2023-12-05T15:07:17 IST" name="Zlaunch" finished-at="2023-12-05T15:07:17 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Zlaunch -->
+        <test-method signature="product()[pri:0, instance:testcases.DependsOnMethod@4a7f959b]" started-at="2023-12-05T15:07:17 IST" name="product" finished-at="2023-12-05T15:07:17 IST" depends-on-methods="testcases.DependsOnMethod.Zlaunch" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- product -->
+      </class> <!-- testcases.DependsOnMethod -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
